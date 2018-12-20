@@ -1,8 +1,8 @@
 // 域名地址
 let domainName = "http://admin.yidianxueche.cn";
-let getwxinfo=domainName + "/api/user/getwxinfo_djjxhd"
+let getwxinfo=domainName + "/api/user/getwxinfo_xnjxhd"
 // 学校id
-let school_id = 1;
+let school_id = 4;
 // 获取保存的经纬度
 let latlng = JSON.parse(sessionStorage.getItem("latlng"));
 
