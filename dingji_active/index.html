@@ -20,7 +20,8 @@
 				text-align: center;
 				line-height: .5rem;
 			}
-			.ycfxyq{
+
+			.ycfxyq {
 				display: none;
 			}
 		</style>
@@ -245,14 +246,13 @@
 				let fenxiangurl = window.location.href.split("?")[0] + "?fenxiang_id/" + userInfo.id;
 				$("#share_box .icon-qzone").attr("href",
 					"http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + fenxiangurl +
-					"&title=0元学车，你敢不敢来&pics=http://xnjx.yidianxueche.cn/dingji_active/images/logo.png&desc=快来参加0元学车&summary=你的情敌准备带她自驾游，你还在吃鸡？&site=qq空间分享"
+					"&title=0元学车，你敢不敢来&pics=http://djjx.yidianxueche.cn/dingji_active/images/logo.png&desc=快来参加0元学车&summary=你的情敌准备带她自驾游，你还在吃鸡？&site=qq空间分享"
 				);
 				let yaoqingurl = window.location.href.split("?")[0] + "?yaoqing_id/" + userInfo.id;
 
 				$("#Invitation_box .icon-qzone").attr("href",
 					"http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + yaoqingurl +
-					"&title=0元学车，你敢不敢来&pics=http://xnjx.yidianxueche.cn/dingji_active/images/logo.png&desc=快来参加0元学车&summary=你的情敌准备带她自驾游，你还在吃鸡？&site=qq空间分享"
-					// "&title=0元学车，你敢不敢来&pics=http://xnjx.yidianxueche.cn/dingji_active/images/logo.png&desc=快来参加0元学车&summary=你的情敌准备带她自驾游，你还在吃鸡？&site=qq空间分享"
+					"&title=0元学车，你敢不敢来&pics=http://djjx.yidianxueche.cn/dingji_active/images/logo.png&desc=快来参加0元学车&summary=你的情敌准备带她自驾游，你还在吃鸡？&site=qq空间分享"
 				);
 				// 二维码生成
 				$('.qq #qrid').qrcode({
@@ -330,13 +330,13 @@
 								content: '请到微信外部进行支付',
 								btn: '确定'
 							});
-// 							let openid = localStorage.getItem("openid");
-// 							if (openid == null || openid == "" || openid == "null" || openid == undefined || openid == "undefined") {
-// 								window.location.href = getwxinfo;
-// 							} else {
-// 								prestore();
-// 							}
-						
+							// 							let openid = localStorage.getItem("openid");
+							// 							if (openid == null || openid == "" || openid == "null" || openid == undefined || openid == "undefined") {
+							// 								window.location.href = getwxinfo;
+							// 							} else {
+							// 								prestore();
+							// 							}
+
 						} else {
 							prestore_h5();
 							// 							$("#gzh").css("display", "flex");
