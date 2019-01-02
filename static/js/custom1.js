@@ -63,7 +63,7 @@ function getydxc() {
 					] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
 				});
 
-				var title = "金西亚驾校";
+				var title = "西南驾校";
 				// var link = "http://ydxctrue.yidianxueche.cn/";
 				var link = "http://xnjx.yidianxueche.cn/";
 				var imgUrl = "http://ydxctrue.yidianxueche.cn/template/wap/public/css/self/image/banner_1.jpg";
@@ -196,7 +196,7 @@ window.onresize = function() {
 };
 // 设置网页title
 function settitle() {
-	document.title = "金西亚驾校";
+	document.title = "西南驾校";
 
 }
 // 微信登录
