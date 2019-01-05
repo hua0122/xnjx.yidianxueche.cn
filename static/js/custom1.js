@@ -63,11 +63,11 @@ function getydxc() {
 					] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
 				});
 
-				var title = "西南驾校";
+				var title = "西南驾校服务平台";
 				// var link = "http://ydxctrue.yidianxueche.cn/";
-				var link = "http://xnjx.yidianxueche.cn/";
+				var link = "http://ydxc.yidianxueche.cn/";
 				var imgUrl = "http://ydxctrue.yidianxueche.cn/template/wap/public/css/self/image/banner_1.jpg";
-				var desc = "人工智能引领驾培未来，易点学车定制中国好司机";
+				var desc = "西南驾校，让学车变得容易点";
 				var type = "";
 				var dataUrl = "";
 				wx.ready(function() {
@@ -206,7 +206,7 @@ function wxlogin() {
 
 	} else {
 		if (window.location.href.indexOf("index/index.html") == -1) {
-			window.location.href = "http://xnjx.yidianxueche.cn";
+			window.location.href = "http://ydxc.yidianxueche.cn";
 		} else {
 			var openid = getQueryString("openid");
 			sessionStorage.setItem("openid", openid)
